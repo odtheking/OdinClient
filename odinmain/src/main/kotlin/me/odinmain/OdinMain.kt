@@ -78,7 +78,7 @@ object OdinMain {
             config.mkdirs()
         }
         launch { WaypointConfig.loadConfig() }
-        launch { DungeonWaypointConfigCLAY.loadConfig() }
+        launch { DungeonWaypointConfig.loadConfig() }
     }
 
     @OptIn(DelicateCoroutinesApi::class)
