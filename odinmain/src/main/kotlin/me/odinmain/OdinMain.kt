@@ -66,6 +66,7 @@ object OdinMain {
             highlightCommand,
             waypointCommand,
             dungeonWaypointsCommand,
+            PosMsgCommand,
             petCommand,
             visualWordsCommand
         )
